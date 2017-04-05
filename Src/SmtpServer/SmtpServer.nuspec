@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EnkiSmtpServer</id>
-    <version>1.6.1</version>
+    <version>1.6.2-beta</version>
     <authors>Cain</authors>
     <owners>Cain</owners>
     <licenseUrl>https://github.com/cosullivan/SmtpServer/blob/master/LICENSE</licenseUrl>
@@ -13,4 +13,8 @@
     <copyright>Copyright 2017</copyright>
     <tags>smtp email server</tags>
   </metadata>
+  <files>
+    <file src="bin\Debug\netstandard1.6\*.dll" target="lib\netstandard1.6" />
+    <file src="bin\Debug\net45\*.dll" target="lib\net45" />
+  </files>
 </package>
