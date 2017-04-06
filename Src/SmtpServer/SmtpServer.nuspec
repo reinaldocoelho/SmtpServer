@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EnkiSmtpServer</id>
-    <version>1.6.2-beta</version>
+    <version>1.6.3-beta</version>
     <authors>Cain</authors>
     <owners>Cain</owners>
     <licenseUrl>https://github.com/cosullivan/SmtpServer/blob/master/LICENSE</licenseUrl>
