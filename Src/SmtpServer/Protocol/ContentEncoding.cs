@@ -3,18 +3,18 @@
     public enum ContentEncoding
     {
         /// <summary>
-        /// Seven bit encoding (ASCII encoding).
-        /// </summary>
-        SevenBit = 0,
-
-        /// <summary>
         /// Eight bit encoding (UTF8 Encoding). 
         /// </summary>
-        EightBit = 1,
+        EightBit = 0,
+
+        /// <summary>
+        /// Seven bit encoding (ASCII encoding).
+        /// </summary>
+        SevenBit = 1,
 
         /// <summary>
         /// The default transfer encoding.
         /// </summary>
-        Default = SevenBit
+        Default = EightBit
     }
 }
